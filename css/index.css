@@ -135,6 +135,19 @@ header nav a {
   color: #000;
   text-decoration: none;
   font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+footer nav {
+  height: 75px;
+  display: flex;
+  width: 70%;
+  justify-content: space-evenly;
+}
+footer nav a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1.8rem;
+  margin-top: 50px;
 }
 * {
   box-sizing: border-box;
@@ -190,4 +203,40 @@ body .page header .buttons button {
   justify-self: flex-end;
   border-radius: 40%;
   background-color: #85B145;
+}
+body .page .main-content {
+  width: 100%;
+  display: flex;
+}
+body .page .main-content img {
+  width: 100%;
+  border-radius: 10%;
+}
+body .page .main-content .column2 {
+  margin-right: 30%;
+  text-align: center;
+}
+body .page .main-content .column1 {
+  text-align: center;
+}
+body .page .main-content .column1 p {
+  margin-right: 10%;
+}
+body .page .main-content h2 {
+  font-size: 2.5rem;
+  margin: 10px auto;
+  text-align: center;
+}
+body .page .main-content p {
+  text-align: center;
+  font-size: 1.7rem;
+  width: 100%;
+  line-height: 1.2;
+}
+body footer {
+  height: 75px;
+  width: 100%;
+}
+body footer span {
+  margin-left: 22.5%;
 }
