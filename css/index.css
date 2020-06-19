@@ -126,3 +126,68 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+header nav {
+  display: flex;
+  width: 70%;
+  justify-content: space-evenly;
+}
+header nav a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1.8rem;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Calibri', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Trebuchet MS', sans-serif;
+}
+body {
+  margin-left: 22.5%;
+  background-color: #D6E4FF;
+}
+body .page {
+  max-width: 1000px;
+}
+body .page header {
+  height: 350px;
+  width: 100%;
+  background-image: url("https://www.reformaustin.org/wp-content/uploads/2020/02/medical-marijuana-696x364.jpg");
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+body .page header h1 {
+  width: 50%;
+  font-size: 5.5rem;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+  margin-left: 20%;
+}
+body .page header .buttons {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+body .page header .buttons button {
+  height: 50px;
+  width: 15%;
+  font-size: 1.6rem;
+  justify-self: flex-end;
+  border-radius: 40%;
+  background-color: #85B145;
+}
