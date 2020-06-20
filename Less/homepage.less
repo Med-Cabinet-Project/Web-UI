@@ -18,10 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 body {
     margin-left: 22.5%;
     background-color: @bgColor;
-    @media @mobile {
-        margin-left: 0;
-      
-    }
+
     .page {
         max-width: 1000px;
         width: 100%;
@@ -85,6 +82,9 @@ body {
             .column2{
                 margin-right: 30%;
                 .tAlign();
+                @media @mobile {
+                    margin-right: 0;
+                }
             }
             .column1{
                 .tAlign();
