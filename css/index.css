@@ -156,12 +156,25 @@ footer nav {
   display: flex;
   width: 70%;
   justify-content: space-evenly;
+  margin-left: 15%;
 }
 footer nav a {
   color: #000;
   text-decoration: none;
   font-size: 1.8rem;
   margin-top: 50px;
+}
+@media (max-width: 500px) {
+  footer nav a {
+    font-size: 1.2rem;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 500px) {
+  footer nav {
+    margin-left: 15%;
+  }
 }
 * {
   box-sizing: border-box;
@@ -184,11 +197,6 @@ h6 {
 body {
   margin-left: 22.5%;
   background-color: #D6E4FF;
-}
-@media (max-width: 500px) {
-  body {
-    margin-left: 0;
-  }
 }
 body .page {
   max-width: 1000px;
@@ -264,6 +272,11 @@ body .page .main-content .column2 {
   margin-right: 30%;
   text-align: center;
 }
+@media (max-width: 500px) {
+  body .page .main-content .column2 {
+    margin-right: 0;
+  }
+}
 body .page .main-content .column1 {
   text-align: center;
 }
@@ -283,7 +296,9 @@ body .page .main-content p {
 }
 body footer {
   height: 75px;
-  width: 100%;
+  width: 75%;
+  border-radius: 3%;
+  background-color: #8FBC8F;
 }
 body footer span {
   margin-left: 22.5%;
