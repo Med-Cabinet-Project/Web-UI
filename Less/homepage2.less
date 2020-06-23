@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+
+html, body {
+    font-family: 'Calibri', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+
+
+body {
+    background-color: @bgColor;
+    @media @mobile {
+        margin-left: 0;
+    }
+    header {
+        background-color: #8FBC8F;
+        .flex();
+        justify-content: space-between;
+        
+        h4{
+            font-size: 2.5rem;
+        }
+        
+        
+    }
+    h1 {
+        font-size: 3.5rem;
+        font-style: italic;
+        text-decoration: underline;
+        .tAlign();
+        margin: 30px 0;
+    }
+    h3{
+        font-size: 2.5rem;
+        font-style: italic;
+        text-decoration: underline;
+        .tAlign();
+        margin: 15px 0;
+    }
+    .row1, .row2 {
+
+        img {
+            height: 300px;
+            width: 80%;
+            border-radius: 5%;
+            @media @mobile {
+                width: 100%;
+            }
+        }
+        .flex();
+        @media @mobile {
+            .flexDir();
+        }
+        
+    }
+    .row3 {
+        width: 32.5%;
+        @media @mobile {
+            width: 100%;
+        }
+        img{
+            height: 300px;
+            width: 80%;
+            border-radius: 5%; 
+            @media @mobile {
+               width: 100%;
+            } 
+        }
+    }
+    footer{
+        height: 75px;
+        width: 100%;
+        border-radius: 3%;
+        background-color: #8FBC8F;
+    }
+}
