@@ -167,8 +167,7 @@ footer nav a {
 @media (max-width: 500px) {
   footer nav a {
     font-size: 1.2rem;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin: 30px 5% 20px 5%;
   }
 }
 @media (max-width: 500px) {
@@ -197,6 +196,11 @@ h6 {
 body {
   margin-left: 22.5%;
   background-color: #D6E4FF;
+}
+@media (max-width: 500px) {
+  body {
+    margin-left: 0;
+  }
 }
 body .page {
   max-width: 1000px;
@@ -302,4 +306,14 @@ body footer {
 }
 body footer span {
   margin-left: 22.5%;
+}
+@media (max-width: 500px) {
+  body footer span {
+    margin-left: 10%;
+  }
+}
+@media (max-width: 500px) {
+  body footer {
+    margin-left: 15%;
+  }
 }

@@ -18,6 +18,9 @@ h1, h2, h3, h4, h5, h6 {
 body {
     margin-left: 22.5%;
     background-color: @bgColor;
+    @media @mobile {
+        margin-left: 0;
+    }
 
     .page {
         max-width: 1000px;
@@ -112,7 +115,13 @@ body {
         border-radius: 3%;
         span{
             margin-left: 22.5%;
+            @media @mobile {
+                margin-left: 10%;
+            }
         }
         background-color: #8FBC8F;
+        @media @mobile {
+            margin-left: 15%;
+        }
     }
 }
