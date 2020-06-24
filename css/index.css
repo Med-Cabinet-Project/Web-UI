@@ -137,6 +137,7 @@ header nav {
     justify-content: justify;
     margin-left: 40%;
     font-weight: bold;
+    width: 50%;
   }
 }
 header nav a {
@@ -233,7 +234,7 @@ body .page header h1 {
 @media (max-width: 500px) {
   body .page header h1 {
     font-size: 3rem;
-    width: 100%;
+    width: 75%;
     margin-top: 20px;
     margin-left: 25%;
   }
@@ -314,7 +315,7 @@ body footer span {
 }
 @media (max-width: 500px) {
   body footer {
-    margin-left: 15%;
+    width: 100%;
   }
 }
 body .row1,
