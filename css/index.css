@@ -131,12 +131,18 @@ header nav {
   width: 70%;
   justify-content: space-evenly;
 }
+@media (max-width: 800px) {
+  header nav {
+    margin-left: 10%;
+  }
+}
 @media (max-width: 500px) {
   header nav {
     flex-direction: column;
     justify-content: justify;
     margin-left: 40%;
     font-weight: bold;
+    width: 50%;
   }
 }
 header nav a {
@@ -197,6 +203,11 @@ body {
   margin-left: 22.5%;
   background-color: #D6E4FF;
 }
+@media (max-width: 800px) {
+  body {
+    margin-left: 12%;
+  }
+}
 @media (max-width: 500px) {
   body {
     margin-left: 0;
@@ -215,6 +226,11 @@ body .page header {
   flex-direction: column;
   justify-content: space-around;
 }
+@media (max-width: 800px) {
+  body .page header {
+    width: 100%;
+  }
+}
 @media (max-width: 500px) {
   body .page header {
     background-size: 100% 100%;
@@ -230,10 +246,16 @@ body .page header h1 {
   text-decoration: underline;
   margin-left: 20%;
 }
+@media (max-width: 800px) {
+  body .page header h1 {
+    width: 70%;
+    margin-left: 25%;
+  }
+}
 @media (max-width: 500px) {
   body .page header h1 {
     font-size: 3rem;
-    width: 100%;
+    width: 75%;
     margin-top: 20px;
     margin-left: 25%;
   }
@@ -251,6 +273,11 @@ body .page header .buttons button {
   border-radius: 40%;
   background-color: #85B145;
 }
+@media (max-width: 800px) {
+  body .page header .buttons button {
+    margin-left: 32%;
+  }
+}
 @media (max-width: 500px) {
   body .page header .buttons button {
     font-size: 1.3rem;
@@ -263,9 +290,15 @@ body .page .main-content {
   width: 100%;
   display: flex;
 }
+@media (max-width: 800px) {
+  body .page .main-content {
+    margin-left: 10%;
+  }
+}
 @media (max-width: 500px) {
   body .page .main-content {
     flex-direction: column;
+    margin-left: 0;
   }
 }
 body .page .main-content img {
@@ -276,9 +309,24 @@ body .page .main-content .column2 {
   margin-right: 30%;
   text-align: center;
 }
+@media (max-width: 800px) {
+  body .page .main-content .column2 {
+    margin-left: 10%;
+  }
+}
 @media (max-width: 500px) {
   body .page .main-content .column2 {
     margin-right: 0;
+  }
+}
+@media (max-width: 800px) {
+  body .page .main-content .column2 p {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 500px) {
+  body .page .main-content .column2 p {
+    margin-top: 0;
   }
 }
 body .page .main-content .column1 {
@@ -312,17 +360,13 @@ body footer span {
     margin-left: 10%;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   body footer {
-    margin-left: 15%;
+    width: 92%;
   }
 }
-body .row1,
-body .row2 {
-  display: flex;
-}
-body .row1 img,
-body .row2 img {
-  height: 300px;
-  width: 100%;
+@media (max-width: 500px) {
+  body footer {
+    width: 100%;
+  }
 }

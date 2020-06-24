@@ -3,12 +3,15 @@ header{
     .flex();
     width: 70%;
     justify-content: space-evenly;
+    @media @tablet {
+        margin-left: 10%;
+    }
     @media @mobile {
         .flexDir();
         justify-content: justify;
        margin-left: 40%;
        font-weight: bold;
-        
+        width: 50%; 
     }
     a {
         color: #000;
